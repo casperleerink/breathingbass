@@ -1,9 +1,9 @@
 import React from 'react'
-import { StillTemplate } from '../../templates/still-page'
+import { IndexTemplate } from '../../templates/index-page'
 
 const Preview = ({ widgetFor }) => {
     return (
-        <StillTemplate
+        <IndexTemplate
             content={widgetFor('body')}
         />
     )

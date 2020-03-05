@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Xinyue Liu`,
-    description: `Personal Website of Videographer, Photographer and Visual Artist Xinyue Liu`,
+    title: `Breathing Bass`,
+    description: `Breathing Bass is a new ensemble made up of Kourosh Ghamsari-Esfahani, Katerina Gimon, Chris Blaber and Casper Leerink`,
     author: `Casper Leerink`,
   },
   plugins: [
@@ -21,14 +21,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
     //google fonts
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Sacramento', 'Roboto:300']
+          families: ['Roboto:300']
         }
       }
     },

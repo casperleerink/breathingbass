@@ -1,9 +1,9 @@
 $font-stack: 'Roboto', sans-serif;
-$text-color: #7f2417;
-$text-color-lighter: #616161;
-$text-color-hover: #E9BAB3;
-$background-color: #f2f7f2;
-$standard-padding-top: 15px;
+$text-color: #0e0706;
+$text-color-lighter: #160e0e;
+$text-color-hover: #2e2827;
+$background-color: #f5f9fa;
+$standard-padding: 15px;
 
 
 @mixin mobile {
@@ -21,6 +21,8 @@ body {
     background: $background-color;
     color: $text-color;
     font: 100% $font-stack;
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -39,32 +41,70 @@ button {
     background-color: inherit;
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin: 10px 0;
-}
-
 .layout-container {
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 40px;
-    width: 94%;
-    float: left;
-    @include mobile {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 20px;
-        width: 90%;
-    }
+    // margin-left: 3%;
+    // margin-right: 3%;
+    // margin-top: 40px;
+    width: 100%;
+    // float: left;
+    // @include mobile {
+    //     margin-left: 5%;
+    //     margin-right: 5%;
+    //     margin-top: 20px;
+    //     width: 90%;
+    // }
 }
 
 .header {
     display: block;
-    width: 15%;
-    float: right;
-    @include mobile {
-        width: 100%;
-        float: left;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 14px;
+    overflow: hidden;
+    //Menu specific:
+    .menu-items {
+        @include mobile {
+            // only collapse when view is mobile
+            width: 100%;
+            float: left;
+            text-align: right;
+            max-height: 0;
+            transition: max-height 500ms ease-out;
+            overflow: hidden;
+            &.expanded {
+                max-height: 800px;
+            }
+        }
+        .menu-item {
+            display: block;
+            float: left;
+            // padding: 30px;
+            a {
+                padding: $standard-padding;
+                text-align: center;
+                font-size: 100%;
+            }
+            :hover {
+                color: $text-color-hover;
+                background-color: #96c1c7;
+                border-radius: 5px;
+            }
+        }
+    }
+    .bars {
+        display: none;
+        @include mobile {
+            //only show bars on mobile view
+            display: block;
+            width: 10%;
+            float: left;
+            margin: 10px 0;
+            font-size: 200%;
+            color: $text-color;
+            cursor: pointer;
+        }
     }
 }
 .main-content {
@@ -77,86 +117,11 @@ h1 {
     }
 }
 
-//Menu specific:
-.title {
-    font-family: 'Sacramento', 'Roboto';
-    @include mobile {
-        display: block;
-        width: 90%;
-        float: left;
-    }
-    :hover {
-        color: $text-color-hover;
-    }
-}
 
 .link-active {
     color: $text-color-hover;
 }
 
-.bars {
-    display: none;
-    @include mobile {
-        //only show bars on mobile view
-        display: block;
-        width: 10%;
-        float: left;
-        margin: 10px 0;
-        color: $text-color;
-        cursor: pointer;
-    }
-}
-.menu-items {
-    display: block;
-    @include mobile {
-        // only collapse when view is mobile
-        width: 100%;
-        float: left;
-        text-align: right;
-        max-height: 0;
-        transition: max-height 500ms ease-out;
-        overflow: hidden;
-        &.expanded {
-            max-height: 800px;
-        }
-    }
-    .menu-item {
-        display: block;
-        padding: 5px 0;
-        font-size: 85%;
-        @include mobile {
-            padding: 7px 0;
-        }
-        :hover {
-            color: $text-color-hover;
-        }
-    }
-}
-.dropdown-menu-items {
-    max-height: 0;
-    transition: max-height 300ms ease-out;
-    overflow: hidden;
-    &.expanded {
-        max-height: 300px;
-    }
-}
-
-.dropdown-menu-item {
-    display: block;
-    padding: 4px 0;
-    padding-left: 10px;
-    :hover {
-        color: $text-color-hover;
-    }
-    a {
-        // color: $text-color-lighter;
-        font-size: 76%;
-        opacity: 0.8;
-    }
-    @include mobile {
-        padding: 6px 0;
-    }
-}
 
 
 //Main content
@@ -172,8 +137,8 @@ h1 {
     img {
         width: 100%;
         float: left;
-        padding-top: $standard-padding-top;
-        padding-bottom: $standard-padding-top;
+        padding-top: $standard-padding;
+        padding-bottom: $standard-padding;
     }
     .half {
         width: 50%;
@@ -204,11 +169,11 @@ h1 {
         }
     }
     .extra-padding {
-        padding-top: $standard-padding-top;
+        padding-top: $standard-padding;
     }
     .video-container {
-        margin-top: $standard-padding-top;
-        margin-bottom: $standard-padding-top;
+        margin-top: $standard-padding;
+        margin-bottom: $standard-padding;
         position: relative;
         width: 100%;
         float: left;
@@ -225,60 +190,60 @@ h1 {
 }
 
 //works
-.works-container {
-    display: block;
-    // flex-flow: row wrap;
-    // justify-content: center;
-    // padding: 40px 7%;
-    @include mobile {
-        // padding: 0px 0%;
-    }
+// .works-container {
+//     display: block;
+//     // flex-flow: row wrap;
+//     // justify-content: center;
+//     // padding: 40px 7%;
+//     @include mobile {
+//         // padding: 0px 0%;
+//     }
 
-    .works-item {
-        padding: 7%;
-        width: 33.33%;
-        float: left;
-        @include tablet {
-            padding: 10%;
-            width: 50%;
-        }
-        @include mobile {
-            padding: 15%;
-            width: 100%;
-        }
-        h5 {
-            display: block;
-            text-align: center;
-            margin: 0;
-            opacity: 0.0;
-            @include mobile {
-                opacity: 1.0;
-            }
-        }
-        a {
-            .gatsby-image-wrapper {
-                box-shadow: 4px 4px 8px 0px grey;
-            }
-            h5 {
-                display: block;
-                text-align: center;
-                margin: 0;
-                padding-top: $standard-padding-top;
-                opacity: 0.0;
-                transition: opacity 200ms;
-                @include mobile {
-                    opacity: 1.0;
-                }
-            }
-        }
-        a:hover {
-            h5 {
-                opacity: 1.0;
-                transition: opacity 200ms;
-                color: $text-color;
-            }
-        }
+//     .works-item {
+//         padding: 7%;
+//         width: 33.33%;
+//         float: left;
+//         @include tablet {
+//             padding: 10%;
+//             width: 50%;
+//         }
+//         @include mobile {
+//             padding: 15%;
+//             width: 100%;
+//         }
+//         h5 {
+//             display: block;
+//             text-align: center;
+//             margin: 0;
+//             opacity: 0.0;
+//             @include mobile {
+//                 opacity: 1.0;
+//             }
+//         }
+//         a {
+//             .gatsby-image-wrapper {
+//                 box-shadow: 4px 4px 8px 0px grey;
+//             }
+//             h5 {
+//                 display: block;
+//                 text-align: center;
+//                 margin: 0;
+//                 padding-top: $standard-padding-top;
+//                 opacity: 0.0;
+//                 transition: opacity 200ms;
+//                 @include mobile {
+//                     opacity: 1.0;
+//                 }
+//             }
+//         }
+//         a:hover {
+//             h5 {
+//                 opacity: 1.0;
+//                 transition: opacity 200ms;
+//                 color: $text-color;
+//             }
+//         }
         
-    }
+//     }
     
-}
+// }

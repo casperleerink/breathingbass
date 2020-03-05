@@ -3,19 +3,7 @@ templateKey: index-page
 ---
 Welcome to the home page! It is very still..
 --------------------------------------
-----
 
-<p style="padding-top: 300px;"></p>
-
-
-
-<div class="video-container"><iframe src="https://www.youtube.com/embed/3twVC5jSzgU" class="video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-<img src="/assets/E54D6F8C-C0F7-49F0-B1E3-671BE0FB449F.jpeg" alt="" title="" class="half half-left"></img>
-
-<img src="/assets/E54D6F8C-C0F7-49F0-B1E3-671BE0FB449F.jpeg" alt="" title="" class="half half-right"></img>
-
-<img src="/assets/+uJMA1%HScaR2V7dmgxAxA.jpg" alt="" title="" class="middle"></img>
 
 
 The **photos** used in this project were given to me for free from a thrift store.

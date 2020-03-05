@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Content, {HTMLContent} from "../components/Content"
 
 
-const IndexTemplate = ({content, contentComponent}) => {
+export const IndexTemplate = ({content, contentComponent}) => {
   const PageContent = contentComponent || Content;
   return (
     <PageContent className={'content'} content={content} />

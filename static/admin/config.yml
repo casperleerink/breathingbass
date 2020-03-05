@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: casperleerink/liuxinyue
+  name: test-repo
+  # repo: casperleerink/liuxinyue
 # media_library:
 #   name: cloudinary
 #   config:
@@ -25,23 +25,3 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "body", name: "body", widget: "markdown"}
-  - name: still
-    label: Still
-    folder: src/pages/still
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "still-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: false}
-      - {label: "Main Image", name: "mainImage", widget: "image"}
-      - {label: "body", name: "body", widget: "markdown"}
-  - name: move
-    label: Move
-    folder: src/pages/move
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "move-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: false}
-      - {label: "Main Image", name: "mainImage", widget: "image"}
-      - {label: "body", name: "body", widget: "markdown"}
