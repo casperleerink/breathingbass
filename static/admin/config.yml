@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: casperleerink/liuxinyue
+  repo: casperleerink/breathingbass
 media_folder: static/assets
 public_folder: /assets
 logo_url: "https://cdn.dribbble.com/users/610636/screenshots/6454161/sloth_2-01.png"

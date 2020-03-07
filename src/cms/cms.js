@@ -6,6 +6,7 @@ import styles from '!css-loader!sass-loader!../layout.scss'
 CMS.registerPreviewStyle(styles.toString(), { raw: true });
 CMS.registerPreviewTemplate('home', Preview);
 CMS.registerPreviewTemplate('about', Preview);
+CMS.registerPreviewTemplate('performance', Preview);
 
 
 
