@@ -20,9 +20,9 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "body", name: "body", widget: "markdown"}
-  - label: "Performance"
-    name: "performance"
-    folder: "src/pages/performance"
+  - label: "Performances"
+    name: "performances"
+    folder: "src/pages/performances"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "performance-page"}
