@@ -1,8 +1,15 @@
 backend:
   name: git-gateway
   repo: casperleerink/breathingbass
-media_folder: static/assets
-public_folder: /assets
+# media_folder: static/assets
+# public_folder: /assets
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: "casperleerink"
+    api_key: "173738255589443"
+    folder:
+      path: "breathingbass"
 logo_url: "https://cdn.dribbble.com/users/610636/screenshots/6454161/sloth_2-01.png"
 collections:
   - label: "Pages" 
