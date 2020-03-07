@@ -15,7 +15,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo_BB.jpg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -53,6 +53,15 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+            }
+          },
+          `gatsby-remark-responsive-iframe`,
           `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,

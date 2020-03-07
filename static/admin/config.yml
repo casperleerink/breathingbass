@@ -1,11 +1,6 @@
 backend:
   name: test-repo
   # repo: casperleerink/liuxinyue
-# media_library:
-#   name: cloudinary
-#   config:
-#     cloud_name: casperleerink
-#     api_key: 173738255589443
 media_folder: static/assets
 public_folder: /assets
 logo_url: "https://cdn.dribbble.com/users/610636/screenshots/6454161/sloth_2-01.png"
@@ -25,3 +20,13 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "body", name: "body", widget: "markdown"}
+  - label: "Performance"
+    name: "performance"
+    folder: "src/pages/performance"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "performance-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: true}
+      - {label: "Main Image", name: "mainImage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
