@@ -1,7 +1,7 @@
 ---
-templateKey: 'performance-page'
-title: 'My first Performance'
-date: 2020-03-03T08:00:00.000Z
+templateKey: performance-page
+title: Improvisation in the Gold Saucer
+date: 2019-10-07T03:00:00.000Z
 mainImage: /assets/20190410170545912-2.jpg
 ---
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
