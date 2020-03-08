@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: casperleerink/breathingbass
 # media_folder: static/assets
-# public_folder: /assets
+public_folder: /assets
 media_library:
   name: cloudinary
   config:
