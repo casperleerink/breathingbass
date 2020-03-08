@@ -1,10 +1,10 @@
 $font-stack: 'Roboto', sans-serif;
-$text-color: #352121;
-$text-color-lighter: #160e0e;
+$text-color: rgb(21, 25, 26);
+$text-color-lighter:rgb(220, 213, 174);
 $text-color-hover: #2e2827;
-$background-color: #f0f3f2;
-$header-color-background: #352121;
-$header-color: #e5ece9;
+$background-color: rgb(164, 188, 191);
+$header-color-background: rgb(164, 188, 191);
+$header-color: rgb(88, 103, 105);
 $standard-padding: 15px;
 
 
@@ -20,7 +20,7 @@ $standard-padding: 15px;
 }
 
 body { 
-    background: $background-color;
+    background-color: $background-color;
     color: $text-color;
     font: 100% $font-stack;
     padding: 0;
@@ -47,6 +47,7 @@ button {
     display: block;
     width: 100%;
     min-height: 100%;
+    
 }
 
 .header {
@@ -86,7 +87,7 @@ button {
                 padding: $standard-padding;
                 text-align: center;
                 font-size: 100%;
-                color: $header-color;
+                color: $text-color;
                 opacity: 0.8;
                 img {
                     max-width: 1.3rem;
@@ -111,7 +112,7 @@ button {
                 padding: $standard-padding;
                 text-align: center;
                 font-size: 100%;
-                color: $header-color;
+                color: $text-color;
                 opacity: 0.8;
             }
             :hover {
@@ -141,12 +142,25 @@ button {
     }
 }
 .main-content {
+    // background-image: url('/assets/drum 1.png'), url('/assets/piano 1.png'), url('/assets/violin 1.png'), url('/assets/throat 2.png');
+    // background-size: 400px 400px, 400px 400px, 300px 300px, 300px 300px;
+    // background-repeat: no-repeat;
+    // background-position: top right, bottom left, bottom center, center center;
     padding: 6%;
     display: block;
     width: 100%;
     float: left;
+    .background-images {
+        z-index: -1;
+        img {
+            z-index: -100;
+            position: fixed;
+        }
+
+    }
     @include mobile {
         padding: 3%;
+        // background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px;
     }
 }
 
@@ -155,6 +169,8 @@ button {
 
 //Main content
 .content {
+    // background: rgba(255, 255, 255, 0.4);
+    // border: 1px solid $header-color;
     // padding: 40px 7%;
     // @include mobile {
     //     padding: 0px 0%;
@@ -242,6 +258,7 @@ button {
 .performances-container {
     display: block;
     .performance-item {
+        // background: rgba(255, 255, 255, 0.4);
         padding: 1rem;
         width: 100%;
         float: left;
