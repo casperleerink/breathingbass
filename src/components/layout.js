@@ -4,7 +4,10 @@ import PropTypes from "prop-types"
 import {useStaticQuery, graphql} from "gatsby"
 
 import Menu from "./menu"
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import "../layout.scss";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 
 const Layout = ({children}) => {
