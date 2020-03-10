@@ -17,7 +17,7 @@ const AboutPage = ({data}) => {
   
   return (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About" />
     <AboutTemplate contentComponent={HTMLContent} content={data.markdownRemark.html}/>
   </Layout>
   )
