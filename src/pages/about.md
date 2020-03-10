@@ -1,6 +1,8 @@
 ---
 templateKey: about-page
 ---
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/kouroshbio.jpg" alt="" title="" class="half half-left"></img>
+
 # Kourosh Ghamsari-Esfahani
 
 Kourosh Ghamsari-Esfahani is an Iranian-Canadian composer-violinist, currently working on his MFA at Simon Fraser University. He has presented at festivals and artist residencies across North America and internationally, including: The Brush Creek Arts Residency in Wyoming, USA, the Arteles International Creative Residency in Finland, and the Montreal Contemporary Music Lab.\
@@ -9,7 +11,11 @@ Various labels may describe his work with some accuracy: neo-romantic, contempor
 
 [soundcloud.com/kouroshkhan](http://www.soundcloud.com/kouroshkhan)
 
-![Kourosh playing violin](https://res.cloudinary.com/casperleerink/image/upload/v1583604829/breathingbass/SFU-Ensemble-12.jpg)
+
+
+<div class="lines-1"></div>
+
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/katbio.jpg" alt="" title="" class="half half-left"></img>
 
 # Katerina Gimon
 
@@ -17,7 +23,9 @@ Named as one of Canada's ‘hot 30 classical musicians under 30’ by the Canadi
 
 [katerinagimon.com](http://www.katerinagimon.com)
 
-![Kat singing](https://res.cloudinary.com/casperleerink/image/upload/v1583604823/breathingbass/SFU-Ensemble-7.jpg)
+<div class="lines-1"></div>
+
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/chrisbio.jpg" alt="" title="" class="half half-left"></img>
 
 # Chris Blaber
 
@@ -31,12 +39,16 @@ Chris is the artistic director and founder of Ecstatic Waves. This collective cr
 
 [ecstaticwaves.com](http://ecstaticwaves.com/) | [scrapartsmusic.com](https://scrapartsmusic.com/)
 
-![Chris behind his drums](https://res.cloudinary.com/casperleerink/image/upload/v1583604828/breathingbass/SFU-Ensemble-14.jpg)
+<div class="lines-1"></div>
+
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/casperbio.jpg" alt="" title="" class="half half-left"></img>
 
 # Casper Leerink
 
-Casper Leerink is a composer and pianist who is interested in exploring new possibilities for interaction that advancements in technology have to offer. In his compositions, Casper seizes the opportunity to integrate his two interests; technology is used to connect a variety of features within his compositions. With the help of various sensors and custom software, he creates projects where objects, video and sound do not act as separate entities, but are part of an interactive ensemble. Within his music, Casper creates opportunities for technology to connect humans and machines in ways that benefits both.
+Casper Leerink (1995) originally had two great affections, Music and Technology. After high school, torn between the two, he chose to pursue a career in music. From 2013 until 2017 he studied Piano performance with Sepp Grotenhuis at ArtEZ University of the Arts in Zwolle, resulting in his graduation in July 2017. Because Casper’s interests grew bigger than the piano, he managed to start a second major at ArtEZ in Composition, for which he studied with Alex Manassen and Wilbert Bulsink.\
+After his graduation, Casper moved to Vancouver in Canada to study composition at the [Simon Fraser University](https://www.youtube.com/watch?v=dQw4w9WgXcQ) where he is currently persuing his Master in Fine Arts with topics in interactive composition and machine learning.
+
+In his compositions Casper seized the opportunity to integrate his two interests. Technology in his compositions have an important role. It is used to connect a variety of features into his compositions, like Dance, Theater, Film and even the Audience. With the help of technology these features aren’t a separate entity but rather part of a whole interactive experience. (In short, they react to each other)\
+Using these technologies in his music, Casper tries to create an opportunity for technology to connect people with each other, in a way that benefits both humans and machines.
 
 [casperleerink.com](https://casperleerink.com/)
-
-![Casper playing the MIDI controller](https://res.cloudinary.com/casperleerink/image/upload/v1583604833/breathingbass/SFU-Ensemble-21.jpg)
