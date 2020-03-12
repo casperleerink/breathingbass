@@ -142,10 +142,6 @@ button {
     }
 }
 .main-content {
-    // background-image: url('/assets/drum 1.png'), url('/assets/piano 1.png'), url('/assets/violin 1.png'), url('/assets/throat 2.png');
-    // background-size: 400px 400px, 400px 400px, 300px 300px, 300px 300px;
-    // background-repeat: no-repeat;
-    // background-position: top right, bottom left, bottom center, center center;
     padding: 6%;
     display: block;
     width: 100%;
@@ -169,12 +165,6 @@ button {
 
 //Main content
 .content {
-    // background: rgba(255, 255, 255, 0.4);
-    // border: 1px solid $header-color;
-    // padding: 40px 7%;
-    // @include mobile {
-    //     padding: 0px 0%;
-    // }
     p {
         display: block;
         // padding: $standard-padding-top 0;
@@ -210,6 +200,7 @@ button {
     }
     .half-right {
         padding-left: 20px;
+        float: right;
         @include mobile {
             padding-left: 0;
         }
@@ -254,7 +245,35 @@ button {
     .lines-6 { padding-top: 6rem; }
 }
 
-//works
+//biographies on about page
+.biographies-container {
+    display: block;
+    .biography {
+        padding: 1rem;
+        width: 25%;
+        float: left;
+        a {
+            img {
+                width: 100%;
+                float: left
+            }
+            .information {
+                opacity: 0.0;
+                transition: opacity 200ms;
+            }
+        }
+        a:hover {
+            .information {
+                opacity: 1.0;
+                transition: opacity 200ms;
+                color: $text-color;
+            }
+        }
+    }
+}
+
+
+//performances
 .performances-container {
     display: block;
     .performance-item {

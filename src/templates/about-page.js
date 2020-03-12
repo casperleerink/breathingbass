@@ -17,7 +17,7 @@ const AboutPage = ({data}) => {
   
   return (
   <Layout>
-    <SEO title="About" />
+    <SEO title={data.markdownRemark.frontmatter.title} />
     <AboutTemplate contentComponent={HTMLContent} content={data.markdownRemark.html}/>
   </Layout>
   )
@@ -30,6 +30,9 @@ export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      frontmatter {
+        title
+      }
     }
   }
 `

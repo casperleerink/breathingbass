@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 ---
-<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/kouroshbio.jpg" alt="" title="" class="half half-left"></img>
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/kouroshbio.jpg" alt="" title="" class="third half-left"></img>
 
 # Kourosh Ghamsari-Esfahani
 
@@ -15,7 +15,7 @@ Various labels may describe his work with some accuracy: neo-romantic, contempor
 
 <div class="lines-1"></div>
 
-<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/katbio.jpg" alt="" title="" class="half half-left"></img>
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/katbio.jpg" alt="" title="" class="third half-left"></img>
 
 # Katerina Gimon
 
@@ -25,7 +25,7 @@ Named as one of Canada's ‘hot 30 classical musicians under 30’ by the Canadi
 
 <div class="lines-1"></div>
 
-<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/chrisbio.jpg" alt="" title="" class="half half-left"></img>
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/chrisbio.jpg" alt="" title="" class="third half-left"></img>
 
 # Chris Blaber
 
@@ -41,7 +41,7 @@ Chris is the artistic director and founder of Ecstatic Waves. This collective cr
 
 <div class="lines-1"></div>
 
-<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/casperbio.jpg" alt="" title="" class="half half-left"></img>
+<img src="https://res.cloudinary.com/casperleerink/image/upload/v1583876826/breathingbass/casperbio.jpg" alt="" title="" class="half half-right"></img>
 
 # Casper Leerink
 
