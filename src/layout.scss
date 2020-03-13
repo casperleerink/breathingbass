@@ -252,6 +252,9 @@ button {
         padding: 1rem;
         width: 25%;
         float: left;
+        @include mobile {
+            width: 100%;
+        }
         a {
             img {
                 width: 100%;
@@ -259,10 +262,17 @@ button {
             }
             .information {
                 opacity: 0.0;
+                text-align: center;
                 transition: opacity 200ms;
+                @include mobile {
+                    opacity: 1.0;
+                }
             }
         }
         a:hover {
+            img {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
             .information {
                 opacity: 1.0;
                 transition: opacity 200ms;
