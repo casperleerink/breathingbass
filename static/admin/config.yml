@@ -34,7 +34,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "performance-page"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: true}
+      - {label: "Date", name: "date", widget: "datetime", default: "", dateFormat: "DD.MM.YYYY", timeFormat: "hh.mm.a"}
       - {label: "Main Image", name: "mainImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Biographies"

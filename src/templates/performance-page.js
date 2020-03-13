@@ -1,4 +1,5 @@
 import React from "react"
+import moment from 'moment'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
@@ -17,7 +18,7 @@ const PerformancePage = ({data}) => {
   <Layout>
     <SEO title={data.markdownRemark.frontmatter.title} />
     <h1>{data.markdownRemark.frontmatter.title}</h1>
-    <p>{data.markdownRemark.frontmatter.date}</p>
+    <p>{moment(data.markdownRemark.frontmatter.date).local().format("LLL")}</p>
     <PerformanceTemplate contentComponent={HTMLContent} content={data.markdownRemark.html}/>
   </Layout>
   )
@@ -31,7 +32,7 @@ export const performancePageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-          date(formatString: "LLL")
+          date
           title
       }
     }

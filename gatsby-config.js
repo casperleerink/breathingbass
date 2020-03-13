@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Breathing Bass`,
-    description: `Breathing Bass is a new ensemble made up of Kourosh Ghamsari-Esfahani, Katerina Gimon, Chris Blaber and Casper Leerink`,
+    description: `Breathing Bass is a Vancouver based ensemble playing contemporary music and improvisations. The ensemble members consist of: Kourosh Ghamsari-Esfahani, Katerina Gimon, Chris Blaber and Casper Leerink`,
     author: `Casper Leerink`,
   },
   plugins: [

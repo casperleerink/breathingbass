@@ -1,4 +1,5 @@
 import React from "react"
+import moment from 'moment'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import Img from 'gatsby-image'
@@ -14,7 +15,7 @@ const PerformancesPage = ({data}) => {
                     <img src={node.frontmatter.mainImage} alt="" />
                     <div className="information">
                       <h3>{node.frontmatter.title}</h3>
-                      <h5>{node.frontmatter.date}</h5>
+                      <h5>{moment(node.frontmatter.date).local().format(`LLL`)}</h5>
                       <p>{node.excerpt}</p>
                     </div>
                 </Link>
@@ -45,7 +46,7 @@ query PerformanceQuery {
         excerpt(pruneLength: 300)
         frontmatter {
           title
-          date(formatString: "LLL")
+          date
           mainImage
         }
       }
