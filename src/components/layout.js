@@ -22,9 +22,11 @@ const Layout = ({children}) => {
       }
     } 
   `)
+  const topList = ["6%", "7%", "8%", "28%", "45%", "43%", "80%", "65%"];
+  const leftList = ["10%", "35%", "70%", "8%", "35%", "66%", "50%", "15%"];
   const backgroundImages = images.allFile.edges.map((item, index) => {
-    const styleTop = Math.floor(Math.random() * 80) + "%";
-    const styleLeft = Math.floor(Math.random() * 80) + "%";
+    const styleTop = topList[index];
+    const styleLeft = leftList[index];
     const styleSize = Math.floor(Math.random() * 5) + 15 + "%";
     // const styleSize = "20%";
     return (
