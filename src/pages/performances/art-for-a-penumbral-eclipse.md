@@ -3,7 +3,7 @@ templateKey: performance-page
 title: Art For a Penumbral Eclipse
 date: 2020-12-01T03:00:00.000Z
 mainImage: >-
-  https://res.cloudinary.com/casperleerink/image/upload/v1605640188/breathingbass/Screenshot_2020-11-17_at_10.56.01_AM.png
+  https://res.cloudinary.com/casperleerink/image/upload/v1584128238/breathingbass/coral-cloud-abstract.jpg
 ---
 Breathing Bass will stream a 40 minute Sound and Video art piece on Nov. 30, 2020, as an experiential pairing to the total penumbral eclipse visible from Vancouver, BC at that time.
 
