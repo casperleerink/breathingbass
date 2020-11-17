@@ -1,7 +1,7 @@
 ---
 templateKey: performance-page
 title: Art For a Penumbral Eclipse
-date: 2020-12-01T03:00:00.000Z
+date: 2020-12-01T02:00:00.000Z
 mainImage: >-
   https://res.cloudinary.com/casperleerink/image/upload/v1584128238/breathingbass/coral-cloud-abstract.jpg
 ---
